@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-ng-app="compliments">
+<html data-ng-app="angularComp">
 <head>
   <meta charset="UTF-8">
   <title>Emergency Compliment</title>
@@ -11,6 +11,10 @@
 <body>
   <h1>Emergency Compliment</h1>
 <h2> Erik </h2>
+
+<div data-ng-controller='mainController as vm'>
+   {{vm.data}}
+</div>
 
 </body>
 </html>
